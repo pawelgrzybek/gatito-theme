@@ -298,7 +298,32 @@
 		"gitDecoration.deletedResourceForeground": "#E15A60",
 		"gitDecoration.untrackedResourceForeground": "#99C794",
 		"gitDecoration.ignoredResourceForeground": "#7F7F7F",
-		"gitDecoration.conflictingResourceForeground": "#E15A60"
+		"gitDecoration.conflictingResourceForeground": "#E15A60",
+
+		// Settings Editor Colors
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_settings-editor-colors
+		"settings.headerForeground": "#D4D4D4",
+		"settings.modifiedItemForeground": "#FAC863",
+		"settings.inactiveSelectedItemBorder": "#30373A",
+		"settings.dropdownBackground": "#1D2325",
+		"settings.dropdownForeground": "#D4D4D4",
+		"settings.dropdownBorder": "#30373A",
+		"settings.checkboxBackground": "#1D2325",
+		"settings.checkboxForeground": "#D4D4D4",
+		"settings.checkboxBorder": "#30373A",
+		"settings.textInputBackground": "#1D2325",
+		"settings.textInputForeground": "#D4D4D4",
+		"settings.textInputBorder": "#30373A",
+		"settings.numberInputBackground": "#1D2325",
+		"settings.numberInputForeground": "#D4D4D4",
+		"settings.numberInputBorder": "#30373A",
+
+		// Breadcrumbs
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
+		"breadcrumb.foreground": "#D4D4D4",
+		"breadcrumb.focusForeground": "#6699CC",
+		"breadcrumb.activeSelectionForeground": "#6699CC",
+		"breadcrumbPicker.background": "#1D2325"
 
 	},
 	"tokenColors": [
