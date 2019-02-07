@@ -68,6 +68,9 @@
     "list.focusForeground": "#D4D4D4",
     "list.errorForeground": "#E15A60",
     "list.warningForeground": "#FAC863",
+    "listFilterWidget.background": "#242B2E",
+    "listFilterWidget.outline": "#30373A",
+    "listFilterWidget.noMatchesOutline": "#E15A60",
 
     // Activity Bar
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
