@@ -4,7 +4,7 @@
 
 Modern, elegant and accessible fork of [Oceanic Next Color Scheme](https://github.com/voronianski/oceanic-next-color-scheme) for Sublime Text. Formerly known as a "Bimbo Theme" — sorry for this stupid name.
 
-## Instalation
+## Installation
 
 1. Open Extensions on the sidebar.
 2. Search for Gatito Theme.
