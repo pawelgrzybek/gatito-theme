@@ -28,7 +28,7 @@
       {
         "label": "Gatito Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/gatito-theme-color-theme.json"
+        "path": "./dist/gatito-theme.json"
       }
     ]
   },
@@ -42,5 +42,14 @@
   "bugs": {
     "url": "https://github.com/pawelgrzybek/gatito-theme/issues"
   },
-  "icon": "images/icon.png"
+  "icon": "images/icon.png",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "build": "node src/index.js"
+  }
 }

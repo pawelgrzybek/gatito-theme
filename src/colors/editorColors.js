@@ -1,0 +1,56 @@
+const theme = require("../theme");
+
+// Editor Colors
+// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
+
+module.exports = {
+  "editor.background": theme.background,
+  "editor.foreground": theme.foreground,
+  "editorLineNumber.foreground": "#545454",
+  "editorLineNumber.activeForeground": "#7F7F7F",
+  "editorCursor.foreground": theme.foreground,
+  "editor.selectionBackground": "#FFFFFF3D",
+  // "editor.selectionHighlightBackground": "#FFFFFF3D",
+  "editor.inactiveSelectionBackground": "#FFFFFF1F",
+  "editor.wordHighlightBackground": "#FFFFFF00",
+  "editor.wordHighlightStrongBackground": "#FFFFFF00",
+  "editor.findMatchBackground": "#FFFFFF3D",
+  "editor.findMatchHighlightBackground": "#FFFFFF1F",
+  // "editor.findRangeHighlightBackground": "#FFFFFF1F",
+  "editor.hoverHighlightBackground": "#FFFFFF1F",
+  "editor.lineHighlightBackground": "#FFFFFF0F",
+  // "editor.lineHighlightBorder": "#30373A",
+  "editorLink.activeForeground": "#6699CC",
+  "editor.rangeHighlightBackground": "#30373A",
+  "editorWhitespace.foreground": "#545454",
+  "editorIndentGuide.background": "#FFFFFF1F",
+  "editorIndentGuide.activeBackground": "#7F7F7F",
+  "editorRuler.foreground": "#FFFFFF1F",
+  "editorCodeLens.foreground": "#7F7F7F",
+  "editorBracketMatch.background": "#FFFFFF00",
+  "editorBracketMatch.border": "#FFFFFF4D",
+  "editorOverviewRuler.border": "#30373A",
+  // "editor.stackFrameHighlightBackground": "red",
+  // "editor.focusedStackFrameHighlightBackground": "red",
+
+  "editorOverviewRuler.findMatchForeground": "#FFFFFF0F",
+  "editorOverviewRuler.rangeHighlightForeground": "#FFFFFF0F",
+  "editorOverviewRuler.selectionHighlightForeground": "#FFFFFF0F",
+  "editorOverviewRuler.wordHighlightForeground": "#FFFFFF0F",
+  "editorOverviewRuler.wordHighlightStrongForeground": "#FFFFFF0F",
+  "editorOverviewRuler.modifiedForeground": "#6699CC",
+  "editorOverviewRuler.addedForeground": "#99C794",
+  "editorOverviewRuler.deletedForeground": "#E15A60",
+  "editorOverviewRuler.errorForeground": "#E15A60",
+  "editorOverviewRuler.warningForeground": "#FAC863",
+  "editorOverviewRuler.infoForeground": "#6699CC",
+
+  "editorError.foreground": "#E15A60",
+  "editorError.border": theme.background,
+  "editorWarning.foreground": "#FAC863",
+  "editorWarning.border": theme.background,
+  "editorGutter.background": theme.background,
+  "editorGutter.modifiedBackground": "#6699CC",
+  "editorGutter.addedBackground": "#99C794",
+  "editorGutter.deletedBackground": "#E15A60"
+};
