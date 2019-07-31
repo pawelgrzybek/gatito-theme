@@ -5,10 +5,10 @@ const theme = require("../theme");
 
 module.exports = {
   "activityBar.background": theme.background,
-  "activityBar.dropBackground": "#1D2325",
+  "activityBar.dropBackground": theme.foregroundDark,
   "activityBar.foreground": theme.foreground,
-  // "activityBar.inactiveForeground": theme.foreground,
-  "activityBar.border": "#30373A",
-  "activityBarBadge.background": "#5986B3",
+  "activityBar.inactiveForeground": theme.foregroundDark,
+  "activityBar.border": theme.backgroundLight,
+  "activityBarBadge.background": theme.blue,
   "activityBarBadge.foreground": theme.foreground
 };

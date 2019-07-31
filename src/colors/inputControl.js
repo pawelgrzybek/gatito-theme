@@ -4,11 +4,11 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
 
 module.exports = {
-  "input.background": "#1D2325",
+  "input.background": theme.backgroundDark,
   "input.border": "#30373A",
-  "input.foreground": "#D4D4D4",
-  "input.placeholderForeground": "#7F7F7F",
-  "inputOption.activeBorder": "#7F7F7F",
+  "input.foreground": theme.foreground,
+  "input.placeholderForeground": theme.foregroundDark,
+  "inputOption.activeBorder": theme.foregroundDark,
   // "inputValidation.infoForeground": "#f00",
   // "inputValidation.warningForeground": "#f00",
   // "inputValidation.errorForeground": "#f00",

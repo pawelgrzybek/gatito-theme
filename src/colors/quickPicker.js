@@ -5,5 +5,5 @@ const theme = require("../theme");
 
 module.exports = {
   "pickerGroup.border": "#30373A",
-  "pickerGroup.foreground": "#7F7F7F"
+  "pickerGroup.foreground": theme.foregroundDark
 };

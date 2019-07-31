@@ -13,7 +13,7 @@ module.exports = [
     name: "Variable",
     scope: "variable",
     settings: {
-      foreground: "#D4D4D4"
+      foreground: theme.foreground
     }
   },
   {

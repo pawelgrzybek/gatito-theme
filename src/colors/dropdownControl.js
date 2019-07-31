@@ -4,7 +4,7 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
 
 module.exports = {
-  "dropdown.background": "#242B2E",
+  "dropdown.background": theme.background,
   "dropdown.border": "#30373A",
-  "dropdown.foreground": "#D4D4D4"
+  "dropdown.foreground": theme.foreground
 };

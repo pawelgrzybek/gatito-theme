@@ -5,7 +5,7 @@ const theme = require("../theme");
 
 module.exports = {
   // "editor.snippetTabstopHighlightBackground": "#f00",
-  // "editor.snippetTabstopHighlightBorder": "#D4D4D4",
-  // "editor.snippetFinalTabstopHighlightBackground": "#D4D4D4",
-  // "editor.snippetFinalTabstopHighlightBorder": "#D4D4D4"
+  // "editor.snippetTabstopHighlightBorder": theme.foreground,
+  // "editor.snippetFinalTabstopHighlightBackground": theme.foreground,
+  // "editor.snippetFinalTabstopHighlightBorder": theme.foreground
 };

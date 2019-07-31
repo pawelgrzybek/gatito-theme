@@ -5,18 +5,18 @@ const theme = require("../theme");
 
 module.exports = {
   "list.activeSelectionBackground": "#30373A",
-  "list.activeSelectionForeground": "#D4D4D4",
+  "list.activeSelectionForeground": theme.foreground,
   "list.dropBackground": "#30373A",
   "list.focusBackground": "#30373A",
-  "list.highlightForeground": "#D4D4D4",
+  "list.highlightForeground": theme.foreground,
   "list.hoverBackground": "#30373A",
   "list.inactiveSelectionBackground": "#30373A",
-  "list.inactiveSelectionForeground": "#D4D4D4",
-  "list.hoverForeground": "#D4D4D4",
-  "list.focusForeground": "#D4D4D4",
-  "list.errorForeground": "#E15A60",
-  "list.warningForeground": "#FAC863",
-  "listFilterWidget.background": "#242B2E",
+  "list.inactiveSelectionForeground": theme.foreground,
+  "list.hoverForeground": theme.foreground,
+  "list.focusForeground": theme.foreground,
+  "list.errorForeground": theme.red,
+  "list.warningForeground": theme.yellow,
+  "listFilterWidget.background": theme.background,
   "listFilterWidget.outline": "#30373A",
-  "listFilterWidget.noMatchesOutline": "#E15A60"
+  "listFilterWidget.noMatchesOutline": theme.red
 };

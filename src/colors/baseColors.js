@@ -4,9 +4,10 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_base-colors
 
 module.exports = {
-  focusBorder: "#30373A",
-  foreground: "#D4D4D4",
-  "widget.shadow": "#FFFFFF00",
-  "selection.background": "#FAC863",
-  errorForeground: "#E15A60"
+  focusBorder: theme.backgroundLight,
+  foreground: theme.foreground,
+  "widget.shadow": theme.transparent,
+  "selection.background": theme.blue,
+  descriptionForeground: "#f00",
+  errorForeground: theme.red
 };

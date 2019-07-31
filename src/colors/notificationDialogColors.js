@@ -5,11 +5,11 @@ const theme = require("../theme");
 
 module.exports = {
   "notificationCenter.border": "#30373A",
-  "notificationCenterHeader.foreground": "#D4D4D4",
-  "notificationCenterHeader.background": "#1D2325",
+  "notificationCenterHeader.foreground": theme.foreground,
+  "notificationCenterHeader.background": theme.backgroundDark,
   "notificationToast.border": "#30373A",
-  "notifications.foreground": "#D4D4D4",
-  "notifications.background": "#1D2325",
+  "notifications.foreground": theme.foreground,
+  "notifications.background": theme.backgroundDark,
   "notifications.border": "#30373A",
-  "notificationLink.foreground": "#6699CC"
+  "notificationLink.foreground": theme.blue
 };

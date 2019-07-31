@@ -4,5 +4,5 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
 
 module.exports = {
-  "progressBar.background": "#FAC863"
+  "progressBar.background": theme.yellow
 };

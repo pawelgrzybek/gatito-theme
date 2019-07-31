@@ -4,15 +4,15 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
 
 module.exports = {
-  "statusBar.background": "#242B2E",
-  "statusBar.foreground": "#7F7F7F",
-  "statusBar.debuggingBackground": "#242B2E",
-  "statusBar.debuggingForeground": "#D4D4D4",
-  "statusBar.noFolderForeground": "#7F7F7F",
-  "statusBar.noFolderBackground": "#242B2E",
-  "statusBarItem.activeBackground": "#242B2E",
-  "statusBarItem.hoverBackground": "#242B2E",
-  "statusBarItem.prominentBackground": "#242B2E",
-  "statusBarItem.prominentHoverBackground": "#242B2E",
+  "statusBar.background": theme.background,
+  "statusBar.foreground": theme.foregroundDark,
+  "statusBar.debuggingBackground": theme.background,
+  "statusBar.debuggingForeground": theme.foreground,
+  "statusBar.noFolderForeground": theme.foregroundDark,
+  "statusBar.noFolderBackground": theme.background,
+  "statusBarItem.activeBackground": theme.background,
+  "statusBarItem.hoverBackground": theme.background,
+  "statusBarItem.prominentBackground": theme.background,
+  "statusBarItem.prominentHoverBackground": theme.background,
   "statusBar.border": "#30373A"
 };

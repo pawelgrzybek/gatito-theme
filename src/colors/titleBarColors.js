@@ -4,9 +4,9 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors-macos
 
 module.exports = {
-  "titleBar.activeBackground": "#242B2E",
-  "titleBar.activeForeground": "#7F7F7F",
-  "titleBar.inactiveBackground": "#242B2E",
-  "titleBar.inactiveForeground": "#7F7F7F",
+  "titleBar.activeBackground": theme.background,
+  "titleBar.activeForeground": theme.foregroundDark,
+  "titleBar.inactiveBackground": theme.background,
+  "titleBar.inactiveForeground": theme.foregroundDark,
   "titleBar.border": "#30373A"
 };

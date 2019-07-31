@@ -4,6 +4,6 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
 
 module.exports = {
-  "badge.foreground": "#D4D4D4",
-  "badge.background": "#30373A"
+  "badge.foreground": theme.foreground,
+  "badge.background": theme.backgroundLight
 };

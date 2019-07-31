@@ -4,11 +4,11 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
 
 module.exports = {
-  "sideBar.background": "#1D2325",
-  "sideBar.foreground": "#D4D4D4",
+  "sideBar.background": theme.backgroundDark,
+  "sideBar.foreground": theme.foreground,
   "sideBar.border": "#30373A",
-  "sideBarTitle.foreground": "#7F7F7F",
+  "sideBarTitle.foreground": theme.foregroundDark,
   "sideBarSectionHeader.background": "#30373A",
-  "sideBarSectionHeader.border": "#1D2325",
-  "sideBarSectionHeader.foreground": "#D4D4D4"
+  "sideBarSectionHeader.border": theme.backgroundDark,
+  "sideBarSectionHeader.foreground": theme.foreground
 };
