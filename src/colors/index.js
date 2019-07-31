@@ -1,5 +1,6 @@
 module.exports = {
   baseColors: require("./baseColors"),
+  textColors: require("./textColors"),
   buttonControl: require("./buttonControl"),
   dropdownControl: require("./dropdownControl"),
   inputControl: require("./inputControl"),

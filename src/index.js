@@ -6,6 +6,7 @@ const theme = {
   name: "Gatito Theme",
   colors: {
     ...colors.baseColors,
+    ...colors.textColors,
     ...colors.buttonControl,
     ...colors.dropdownControl,
     ...colors.inputControl,
