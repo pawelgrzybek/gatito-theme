@@ -9,7 +9,7 @@ module.exports = {
   "sideBar.border": theme.backgroundLight,
   "sideBar.dropBackground": theme.backgroundLight,
   "sideBarTitle.foreground": theme.foreground,
-  "sideBarSectionHeader.background": theme.background,
+  "sideBarSectionHeader.background": theme.backgroundLight,
   "sideBarSectionHeader.foreground": theme.foreground,
   "sideBarSectionHeader.border": theme.transparent
 };

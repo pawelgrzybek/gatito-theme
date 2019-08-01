@@ -6,7 +6,7 @@ const theme = require("../theme");
 module.exports = {
   "textBlockQuote.background": theme.backgroundDark,
   "textBlockQuote.border": theme.backgroundLight,
-  "textCodeBlock.background": "#f00",
+  "textCodeBlock.background": theme.background,
   "textLink.activeForeground": theme.blue,
   "textLink.foreground": theme.blue,
   "textPreformat.foreground": theme.cyan,
