@@ -6,9 +6,10 @@ const theme = require("../theme");
 module.exports = {
   "sideBar.background": theme.backgroundDark,
   "sideBar.foreground": theme.foreground,
-  "sideBar.border": "#30373A",
-  "sideBarTitle.foreground": theme.foregroundDark,
-  "sideBarSectionHeader.background": "#30373A",
-  "sideBarSectionHeader.border": theme.backgroundDark,
-  "sideBarSectionHeader.foreground": theme.foreground
+  "sideBar.border": theme.backgroundLight,
+  "sideBar.dropBackground": theme.backgroundLight,
+  "sideBarTitle.foreground": theme.foreground,
+  "sideBarSectionHeader.background": theme.background,
+  "sideBarSectionHeader.foreground": theme.foreground,
+  "sideBarSectionHeader.border": theme.transparent
 };
