@@ -5,7 +5,7 @@ const theme = require("../theme");
 
 module.exports = {
   "activityBar.background": theme.background,
-  "activityBar.dropBackground": theme.foregroundDark,
+  "activityBar.dropBackground": theme.backgroundDark,
   "activityBar.foreground": theme.foreground,
   "activityBar.inactiveForeground": theme.foregroundDark,
   "activityBar.border": theme.backgroundLight,
