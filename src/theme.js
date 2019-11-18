@@ -7,6 +7,8 @@ module.exports = {
 
   foreground: "#D4D4D4",
   foregroundDark: "#808080",
+  foregroundAlpha50: "#80808080",
+  foregroundAlpha25: "#80808040",
 
   black: "#D4D4D4",
   red: "#E15A60",

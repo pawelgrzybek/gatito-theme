@@ -7,7 +7,9 @@ module.exports = {
   focusBorder: theme.backgroundLight,
   foreground: theme.foreground,
   "widget.shadow": theme.transparent,
-  "selection.background": theme.blue,
+  "selection.background": theme.yellow,
   descriptionForeground: theme.foregroundDark,
   errorForeground: theme.red
+  // TODO: he have no fucking clue how it works
+  // "icon.foreground": theme.foregroundDark
 };

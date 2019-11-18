@@ -8,6 +8,7 @@ module.exports = {
   "input.border": theme.backgroundLight,
   "input.foreground": theme.foreground,
   "input.placeholderForeground": theme.foregroundDark,
+  "inputOption.activeBackground": theme.foregroundDark,
   "inputOption.activeBorder": theme.foregroundDark,
   "inputValidation.errorBackground": theme.red,
   "inputValidation.errorForeground": theme.foreground,

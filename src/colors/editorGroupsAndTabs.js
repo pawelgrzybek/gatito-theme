@@ -27,8 +27,8 @@ module.exports = {
   "tab.unfocusedHoverBackground": theme.background,
   "tab.hoverBorder": "#f00",
   "tab.unfocusedHoverBorder": "#f00",
-  "tab.activeModifiedBorder": "#f00",
-  "tab.inactiveModifiedBorder": "#f00",
+  "tab.activeModifiedBorder": theme.blue,
+  "tab.inactiveModifiedBorder": theme.blue,
   "tab.unfocusedActiveModifiedBorder": "#f00",
   "tab.unfocusedInactiveModifiedBorder": "#f00",
   "editorPane.background": "#f00"
